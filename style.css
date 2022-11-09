@@ -60,23 +60,37 @@ article {
   line-height: 20px;
 }
 
-aside {
-  width: 700px;
+#article {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.lado-esquerdo {
+  margin-top: 10px;
+  width: 300px;
   text-align: justify;
-  display: block;
+  margin-left: 50px;
+  display: inline-block;
+  line-height: 20px;
+}
+.lado-direito {
+  margin-top: 15px;
+  margin-left: 50px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 20px;
+}
+
+#rodape{
   margin-left: auto;
   margin-right: auto;
 }
-
-table {
-  border: 1px solid black;
-  border-collapse: collapse;
-  display: block;
-  width: fit-content;
+table{
   margin-left: auto;
   margin-right: auto;
 }
-
 table th {
   text-align: center;
   padding: 5px;
